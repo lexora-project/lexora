@@ -6,17 +6,17 @@ Full installation instructions are available at:
 
 ## Chrome Web Store (Primary Path)
 
-Chrome Web Store installation is the primary and recommended path for end users. Once the current testing build completes review, Lexora will be installable directly from the Chrome Web Store with a single click.
+Lexora v0.18.4 is publicly available on the Chrome Web Store. Store installation is the primary and recommended path for end users.
 
-A Chrome Web Store listing is not yet live while review is pending.
+Open the official listing linked from [https://lexora.sh/install](https://lexora.sh/install), then select **Add to Chrome**. Developer Mode is not required.
 
-## Developer Mode / Manual Install (Temporary Fallback)
+## Developer Mode / Manual Install (Contributors)
 
-Manual installation via Chrome Developer Mode is available as a **temporary fallback** for trusted testers and contributors during the review period only.
+Manual installation via Chrome Developer Mode is for contributors and authorized testers working with development builds.
 
 This path is not recommended for general users. Do not attempt to install unpacked extension files from unverified sources.
 
-Instructions for authorized testers are provided separately through the testing program. If you are a tester and have not received instructions, contact [lexora.dev@proton.me](mailto:lexora.dev@proton.me).
+For access or instructions for an authorized development build, contact [lexora.dev@proton.me](mailto:lexora.dev@proton.me).
 
 ## Source Code
 

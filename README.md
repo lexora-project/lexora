@@ -4,7 +4,7 @@ Lexora is an AI-assisted multilingual reading layer for the browser. It helps us
 
 ## Status
 
-Lexora is in active development and is being prepared for Chrome Web Store testing distribution. This repository is a **public project hub** — it does not contain the full extension source code at this stage.
+Lexora v0.18.4 is available publicly on the Chrome Web Store. See the [installation guide](https://lexora.sh/install) for the official listing. This repository is a **public project hub** — it does not contain the full extension source code.
 
 ## Core Capabilities
 
@@ -30,4 +30,4 @@ This repository is a public project hub for Chrome Web Store reviewers, testers,
 
 ---
 
-*Current version: v0.18.0*
+*Current version: v0.18.4*
