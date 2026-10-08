@@ -18,7 +18,7 @@ Include a description of the issue, reproduction steps, and any relevant environ
 
 The following areas of Lexora are particularly security-sensitive:
 
-- **Provider routing** — how requests are dispatched to translation providers, cloud AI, and user-configured endpoints
+- **Provider routing** — how requests are dispatched to On-device Translation, Google Translate, and supported Cloud AI providers
 - **Selected-text handling** — how user-selected content is captured, processed, and transmitted
 - **Extension message boundaries** — communication between the extension's content scripts, background service worker, and popup
 - **Token and key leakage** — handling of API keys and tokens provided by the user
