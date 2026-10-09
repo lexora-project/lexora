@@ -1,6 +1,6 @@
 # Privacy Summary
 
-The approved canonical Privacy Policy is published at **[lexora.sh/privacy](https://lexora.sh/privacy)**. This curated summary describes v0.19.0, which is under Chrome Web Store review; publication is not confirmed. Consult the canonical policy for complete disclosures.
+The approved canonical Privacy Policy is published at **[lexora.sh/privacy](https://lexora.sh/privacy)**. This curated summary describes v0.19.0, publicly available on Chrome Web Store as confirmed on October 9, 2026. Consult the canonical policy for complete disclosures.
 
 ## Translation and Reading Data
 

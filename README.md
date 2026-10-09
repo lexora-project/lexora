@@ -6,9 +6,9 @@ Lexora is an AI-assisted multilingual reading layer for the browser. It helps us
 
 ## Status
 
-The current product version is **v0.19.0 — Browser-native Translation**. It has been submitted to Chrome Web Store for review; public publication is not confirmed. The existing Store listing remains available. **v0.18.4 is the last recorded published baseline**; check the listing for the version currently offered. See the [installation guide](https://lexora.sh/install).
+The current product version is **v0.19.0 — Browser-native Translation**, published and publicly available on Chrome Web Store. **v0.19.0 is the last confirmed public version**, confirmed on October 9, 2026. See the [installation guide](https://lexora.sh/install).
 
-This repository is a **public project hub** and does not contain the full extension source code. The v0.19.0 capabilities below describe the submitted version; they may not yet be available in the Store build.
+This repository is a **public project hub** and does not contain the full extension source code. The capabilities below describe the publicly available v0.19.0 release.
 
 ## Translation Modes in v0.19.0
 
