@@ -6,15 +6,23 @@ Lexora is an AI-assisted multilingual reading layer for the browser. It helps us
 
 ## Status
 
-The current product version is **v0.19.0 — Browser-native Translation**, published and publicly available on Chrome Web Store. **v0.19.0 is the last confirmed public version**, confirmed on October 9, 2026. See the [installation guide](https://lexora.sh/install).
+The latest public release is **v0.19.1 — Popup and update awareness**, published on Chrome Web Store on October 10, 2026. See the [installation guide](https://lexora.sh/install).
 
-This repository is a **public project hub** and does not contain the full extension source code. The capabilities below describe the publicly available v0.19.0 release.
+This repository is a **public project hub** and does not contain the full extension source code. The capabilities below describe the publicly available v0.19.1 release.
 
-## Translation Modes in v0.19.0
+## Translation Modes in v0.19.1
 
 - **On-device Translation** — Chrome’s built-in Translator API with browser-managed language packs. Supported prepared language pairs can translate offline. Availability depends on Chrome, the document, and the language pair. Failures never silently select a remote translation provider.
 - **Google Translate** — online translation; the default mode. No Cloud AI key is required.
 - **Cloud AI** — Gemini, OpenAI, and Anthropic with user-supplied API keys.
+
+## New in v0.19.1
+
+- Refined toolbar popup with the installed version, feature status, settings access, and compact secondary links.
+- A compact upgrade notice and **NEW** toolbar badge appear after genuine extension upgrades. Opening the notice’s **What’s New** link or dismissing it acknowledges the installed version; bundled release notes work offline.
+- Improved keyboard navigation, focus indicators, accessible switches, and contextual YouTube player-control guidance.
+
+See [the changelog](CHANGELOG.md) for release details.
 
 ## Reading Capabilities
 

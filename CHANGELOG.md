@@ -1,8 +1,18 @@
 # Changelog
 
+## v0.19.1 — Popup and update awareness (2026-10-10)
+
+Lexora v0.19.1 is the latest public release, published on the Chrome Web Store on October 10, 2026.
+
+- Refined the toolbar popup to show the installed version, clear feature status, settings access, and compact secondary links.
+- Genuine extension upgrades show a compact notice and a **NEW** toolbar badge until acknowledged. First installation, startup, popup reopening, and same-version reload do not create a new announcement.
+- Opening the notice’s **What’s New** link or dismissing it acknowledges the installed version. Bundled release notes work offline.
+- Improved keyboard tab navigation, focus indicators, accessible switches, and contextual YouTube player-control guidance.
+- Chrome continues to manage extension package updates. This release adds no permissions, telemetry, automatic tabs, operating-system notifications, or custom downloader.
+
 ## v0.19.0 — Browser-native Translation (2026-10-08)
 
-Lexora v0.19.0 is published and publicly available on the Chrome Web Store. Public availability was confirmed on October 9, 2026. v0.19.0 is the last confirmed public version.
+Lexora v0.19.0 was published and publicly available on the Chrome Web Store, with public availability confirmed on October 9, 2026.
 
 - Added On-device Translation through Chrome’s built-in Translator API, with browser-managed language-pack preparation, progress, cancellation, and retry guidance in the Reading Panel.
 - Three modes: On-device Translation, online Google Translate, and Cloud AI with user-supplied Gemini, OpenAI, or Anthropic keys. Supported prepared pairs can translate offline on-device; failures never silently select a remote translation provider.
