@@ -1,8 +1,19 @@
 # Changelog
 
+## v0.19.2 — Stability and recovery (2026-10-15)
+
+Lexora v0.19.2 is the latest public release, with public availability confirmed on October 15, 2026.
+
+- Keep Cloud AI provider selection and saved credentials consistent.
+- Recover stalled translation loading with bounded requests and retries that preserve the current selection.
+- Restore reading panel and selection handling after browser back/forward navigation, including BFCache restores.
+- Clear stale YouTube DualSubs text when subtitle timing, video, or language changes invalidate a cue.
+- DualSubs controls follow the selected interface language across 10 existing locales; no translation target languages are added.
+
+
 ## v0.19.1 — Popup and update awareness (2026-10-10)
 
-Lexora v0.19.1 is the latest public release, published on the Chrome Web Store on October 10, 2026.
+Lexora v0.19.1 was published on the Chrome Web Store on October 10, 2026.
 
 - Refined the toolbar popup to show the installed version, clear feature status, settings access, and compact secondary links.
 - Genuine extension upgrades show a compact notice and a **NEW** toolbar badge until acknowledged. First installation, startup, popup reopening, and same-version reload do not create a new announcement.

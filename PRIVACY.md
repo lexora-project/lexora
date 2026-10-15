@@ -1,6 +1,6 @@
 # Privacy Summary
 
-The approved canonical Privacy Policy is published at **[lexora.sh/privacy](https://lexora.sh/privacy)**. This curated summary describes v0.19.1, published on Chrome Web Store on October 10, 2026. Consult the canonical policy for complete disclosures.
+The approved canonical Privacy Policy is published at **[lexora.sh/privacy](https://lexora.sh/privacy)**. This curated summary describes v0.19.2, published on Chrome Web Store on October 15, 2026. Consult the canonical policy for complete disclosures.
 
 ## Translation and Reading Data
 
@@ -8,7 +8,7 @@ Lexora processes selected text and bounded reading context to provide translatio
 
 - **On-device Translation** uses Chrome’s built-in Translator API and browser-managed language packs. Supported prepared language pairs can translate offline. Translation text stays on-device, and failures never silently select a remote translation provider. Browser, document, and language-pair availability vary; language-pack preparation may require a download.
 - **Google Translate**, the default, sends selected text and language information directly to Google’s online translation service. It does not require or load Cloud AI credentials.
-- **Cloud AI** sends selected text and bounded relevant context directly to Gemini, OpenAI, or Anthropic over HTTPS using your API keys. The preferred provider is tried first; other supported providers with saved keys may be tried. Cloud AI failures do not switch to Google Translate. Test connection sends a fixed test phrase to the selected cloud provider.
+- **Cloud AI** sends selected text and bounded relevant context directly to Gemini, OpenAI, or Anthropic over HTTPS using your API keys. Only the selected provider and its key in the chosen storage mode are used. A missing key produces a configuration error; Cloud AI does not silently switch providers. Cloud AI failures do not switch to Google Translate. Test connection sends a fixed test phrase to the selected cloud provider.
 
 Wikipedia/Wikidata reference lookups, pronunciation, and Japanese reading may send separate requests independently of translation mode. Some reference lookup translation paths use Google Translate. Automatic activation and pronunciation can trigger requests when enabled. On-device Translation does not make these other features offline.
 
