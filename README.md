@@ -6,23 +6,26 @@ Lexora is an AI-assisted multilingual reading layer for the browser. It helps us
 
 ## Status
 
-The latest public release is **v0.19.2 — Stability and recovery**, published on Chrome Web Store on October 15, 2026. See the [installation guide](https://lexora.sh/install).
+The latest public release is **v0.19.3 — Reliability and consistency**, published on Chrome Web Store on October 16, 2026. See the [installation guide](https://lexora.sh/install).
 
-This repository is a **public project hub** and does not contain the full extension source code. The capabilities below describe the publicly available v0.19.2 release.
+This repository is a **public project hub** and does not contain the full extension source code. The capabilities below describe the publicly available v0.19.3 release.
 
-## Translation Modes in v0.19.2
+## Translation Modes in v0.19.3
 
 - **On-device Translation** — Chrome’s built-in Translator API with browser-managed language packs. Supported prepared language pairs can translate offline. Availability depends on Chrome, the document, and the language pair. Failures never silently select a remote translation provider.
 - **Google Translate** — online translation; the default mode. No Cloud AI key is required.
 - **Cloud AI** — Gemini, OpenAI, and Anthropic with user-supplied API keys.
 
-## New in v0.19.2
+## New in v0.19.3
 
-- Keep Cloud AI provider selection and saved credentials consistent.
-- Recover stalled translation loading with bounded requests and retries that preserve the current selection.
-- Restore reading panel and selection handling after browser back/forward navigation, including BFCache restores.
-- Clear stale YouTube DualSubs text when subtitle timing, video, or language changes invalidate a cue.
-- DualSubs controls follow the selected interface language across 10 existing locales; no translation target languages are added.
+- More reliable Notebook saves, duplicate detection across websites, and bookmark synchronization between tabs.
+- Fixed incorrect cached translations for long selections that share the same beginning.
+- More reliable settings persistence across contexts, with clear errors when a save fails.
+- Improved YouTube DualSubs loading and language changes. Temporary rate limits can still require a short wait before retrying.
+- Restored reliable Wikipedia references when enabled.
+- Improved selection handling in embedded frames after the background worker restarts.
+- Completed Notebook labels, filters, notices, and controls across all ten interface languages.
+- Removed verified obsolete extension code and unused website content.
 
 See [the changelog](CHANGELOG.md) for release details.
 

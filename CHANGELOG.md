@@ -1,8 +1,21 @@
 # Changelog
 
+## v0.19.3 — Reliability and consistency (2026-10-16)
+
+Lexora v0.19.3 is published and publicly available on the Chrome Web Store. Public availability was confirmed on October 16, 2026.
+
+- More reliable Notebook saves, duplicate detection across websites, and bookmark synchronization between tabs.
+- Fixed incorrect cached translations for long selections that share the same beginning.
+- More reliable settings persistence across contexts, with clear errors when a save fails.
+- Improved YouTube DualSubs loading and language changes. Temporary rate limits can still require a short wait before retrying.
+- Restored reliable Wikipedia references when enabled.
+- Improved selection handling in embedded frames after the background worker restarts.
+- Completed Notebook labels, filters, notices, and controls across all ten interface languages.
+- Removed verified obsolete extension code and unused website content.
+
 ## v0.19.2 — Stability and recovery (2026-10-15)
 
-Lexora v0.19.2 is the latest public release, with public availability confirmed on October 15, 2026.
+Lexora v0.19.2 was published publicly on the Chrome Web Store on October 15, 2026.
 
 - Keep Cloud AI provider selection and saved credentials consistent.
 - Recover stalled translation loading with bounded requests and retries that preserve the current selection.
