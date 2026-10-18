@@ -6,9 +6,13 @@ Full installation instructions are available at:
 
 ## Chrome Web Store (Primary Path)
 
-Lexora v0.19.3 is the latest public release, published on the Chrome Web Store on October 16, 2026. Store installation remains the recommended path.
+Lexora v0.20.1 is the latest public release, published on the Chrome Web Store on October 18, 2026. Store installation remains the recommended path.
 
 Open the official listing linked from [https://lexora.sh/install](https://lexora.sh/install), then select **Add to Chrome**. Developer Mode is not required.
+
+## Reading Tools
+
+Open the Lexora toolbar → **Lexora** tab → **Reading Tools**. Enter a character count from **1 to 30**, then press **Highlight**. Change the count and press **Highlight** to replace matches; use **Clear** when finished. Matching runs locally on supported webpage content. See the [reading guide](https://lexora.sh/help#reading-tools).
 
 ## Developer Mode / Manual Install (Contributors)
 

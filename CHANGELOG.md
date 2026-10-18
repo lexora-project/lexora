@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.20.1 — Reading Tools & Multilingual Toolbar (2026-10-18)
+
+Lexora v0.20.1 is published and publicly available on the Chrome Web Store. Public availability was confirmed on October 18, 2026. This update brings together all improvements since v0.19.3.
+
+- New Word Length Highlighter in Toolbar → Lexora → Reading Tools: highlight words with 1–30 characters on the current webpage, replace or clear highlights, and keep them during normal reading and supported content changes. Matching stays local without sending page text to an AI provider.
+- The toolbar follows Settings → Interface language across all 10 existing interface languages, including Reading Tools, YouTube controls, statuses, and errors, while preserving relevant popup state when the language changes.
+- Improved YouTube DualSubs compatibility and reliability while preserving video navigation and subtitle behavior.
+- Updated OpenAI Cloud AI translation to GPT-6 Luna (gpt-6-luna), replacing GPT-5 mini and removing the automatic GPT-4.1 mini fallback. Model access failures are shown instead of silently switching models.
+- Updated Anthropic translation to Claude Haiku 5.5 (claude-haiku-5-5); Gemini 3.5 Flash-Lite remains unchanged. Existing provider selections and API keys are preserved, and translation attribution uses the response model when supplied.
+- Improved Cloud AI instruction isolation so selected questions and commands are translated as text rather than followed.
+
 ## v0.19.3 — Reliability and consistency (2026-10-16)
 
 Lexora v0.19.3 is published and publicly available on the Chrome Web Store. Public availability was confirmed on October 16, 2026.
