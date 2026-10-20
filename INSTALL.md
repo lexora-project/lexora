@@ -6,7 +6,7 @@ Full installation instructions are available at:
 
 ## Chrome Web Store (Primary Path)
 
-Lexora v0.20.1 is the latest public release, published on the Chrome Web Store on October 18, 2026. Store installation remains the recommended path.
+Lexora v0.20.2 is the latest public release, published on the Chrome Web Store on October 20, 2026. Store installation remains the recommended path.
 
 Open the official listing linked from [https://lexora.sh/install](https://lexora.sh/install), then select **Add to Chrome**. Developer Mode is not required.
 

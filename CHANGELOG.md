@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.20.2 — Cloud AI Timeout Reliability (2026-10-20)
+
+Lexora v0.20.2 is published and publicly available on Chrome Web Store as of October 20, 2026.
+
+- Cloud AI requests have more time to complete, with timeouts adapted to selection length.
+- Timeout failures are not cached, so a manual retry starts a fresh request after the previous attempt settles.
+- Provider selection and privacy safeguards are preserved; no automatic timeout retries or silent provider fallback.
+
 ## v0.20.1 — Reading Tools & Multilingual Toolbar (2026-10-18)
 
 Lexora v0.20.1 is published and publicly available on the Chrome Web Store. Public availability was confirmed on October 18, 2026. This update brings together all improvements since v0.19.3.
