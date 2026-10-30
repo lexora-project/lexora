@@ -6,17 +6,30 @@ Lexora is an AI-assisted multilingual reading layer for the browser. It helps us
 
 ## Status
 
-The latest public release is **v0.20.2 — Cloud AI Timeout Reliability**, published on Chrome Web Store on October 20, 2026. See the [installation guide](https://lexora.sh/install).
+The latest public release is **v0.21.0 — Two-Level Translation Routing**, published and publicly available on Chrome Web Store. Public availability was confirmed on October 30, 2026. See the [installation guide](https://lexora.sh/install).
 
-This repository is a **public project hub** and does not contain the full extension source code. The capabilities below describe the publicly available v0.20.2 release.
+This repository is a **public project hub** and does not contain the full extension source code. The capabilities below describe the publicly available v0.21.0 release.
 
-## Translation Modes in v0.20.2
+## Translation Methods and Providers in v0.21.0
 
-- **On-device Translation** — Chrome’s built-in Translator API with browser-managed language packs. Supported prepared language pairs can translate offline. Availability depends on Chrome, the document, and the language pair. Failures never silently select a remote translation provider.
-- **Google Translate** — online translation; the default mode. No Cloud AI key is required.
-- **Cloud AI** — Gemini, OpenAI, and Anthropic with user-supplied API keys.
+Choose the translation method in the Reading Panel, then choose a provider separately for AI Translation:
 
-## New in v0.20.2
+- **Machine Translation** — Google Translate, online and the default. It does not require or load AI credentials.
+- **AI Translation** — OpenAI, Gemini, or Claude (Anthropic), using your own API key for the selected provider.
+- **On-device Translation** — Chrome Translator through Chrome’s built-in Translator API with browser-managed language packs. Supported prepared language pairs can translate offline. Availability depends on Chrome, the document, and the language pair. It does not use AI credentials, and failures never silently select a remote translation provider.
+
+Before switching to an AI provider, Lexora checks for that provider’s key in your chosen local or session storage. If it is missing, provider-specific guidance appears and the current route and result remain unchanged. Manage keys in Options → AI. Only the selected provider and its key in the chosen storage mode are used; errors do not silently switch providers, models, or translation methods.
+
+## New in v0.21.0
+
+- Separate translation-method and AI-provider controls in the Reading Panel, with keyboard navigation and menus that keep the panel in place.
+- Successful route changes translate the active selection again. Leaving AI Translation preserves the preferred AI provider for later use.
+- Clear API key guidance before an AI-provider switch, without changing the current route when the required key is missing.
+- The selected provider is separate from the actual response model shown with an AI result.
+
+This release reorganizes existing translation choices. It adds no models, engines, local AI runtimes, or target languages.
+
+## Previously added in v0.20.2
 
 - Cloud AI requests have more time to complete, with timeouts adapted to selection length.
 - Timeout failures are not cached, so a manual retry starts a fresh request after the previous attempt settles.
@@ -41,7 +54,7 @@ See [the changelog](CHANGELOG.md) for release details.
 - **Wikipedia/Wikidata** — reference context and cross-language article lookup.
 - **YouTube DualSubs** — original and translated captions on supported videos, using YouTube’s service separately from Reading Panel translation, with live appearance and positioning controls.
 - **Notebook** — explicitly save selections locally, revisit them in Options, or export Markdown. Saving is unavailable in incognito tabs.
-- **Translation and privacy settings** — configure translation mode, automatic reading features, pronunciation, reference lookups, and subtitles. API keys use the chosen local or session storage and authenticate provider requests directly.
+- **Translation and privacy settings** — configure translation method and AI provider, automatic reading features, pronunciation, reference lookups, and subtitles. API keys use the chosen local or session storage and authenticate provider requests directly.
 
 On-device Translation applies to translation text. Other enabled reading features can make separate network requests, including automatic workflows. Review the [Privacy Policy](https://lexora.sh/privacy) for details and offline limitations.
 

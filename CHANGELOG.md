@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.21.0 — Two-Level Translation Routing (public availability confirmed 2026-10-30)
+
+Lexora v0.21.0 is published and publicly available on Chrome Web Store. The maintainer confirmed **Published — public** in the official Developer Dashboard and confirmed public availability on October 30, 2026. The Store’s **Last updated** field is October 29, 2026; the exact publication timestamp is not shown. The heading records the availability confirmation date.
+
+- Choose a translation method in the Reading Panel: Machine Translation uses Google Translate, AI Translation uses OpenAI, Gemini, or Claude, and On-device Translation uses Chrome Translator.
+- Switch AI providers separately from the translation method. Successful route changes translate the active selection again; leaving AI Translation preserves your preferred AI provider.
+- Before switching to an AI provider, Lexora checks for that provider’s key in your chosen local or session storage. If it is missing, guidance names the provider and keeps the current route and result.
+- Translation uses only the selected provider and its credential in the chosen storage mode. Errors stay visible without silently switching providers, models, or translation methods.
+- The method and provider menus support keyboard navigation and keep the Reading Panel in place. This release adds no models, engines, local AI runtimes, or target languages.
+
 ## v0.20.2 — Cloud AI Timeout Reliability (2026-10-20)
 
 Lexora v0.20.2 is published and publicly available on Chrome Web Store as of October 20, 2026.
